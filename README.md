@@ -1,2 +1,2 @@
 # css-small-projects
-CSS tests, simple effects and others
+HTML, CSS, JS tests, simple effects and others
