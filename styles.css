@@ -26,12 +26,37 @@ body{
     justify-content: center;
     align-items: center;
     color: var(--main-font-color);
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h1{
-    margin: 30px 0;
+    margin-top: 30px;
+    margin-bottom: 148px;
     font-weight: bolder;
     text-transform: uppercase;
     font-family: sans-serif;
+    letter-spacing: 12px;
+}
+
+.button1{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 100px;
+    border: 2px solid var(--palette-yellow1);
+    color: var(--main-font-color);
+    background-color: transparent;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.button1:hover{
+    box-shadow: inset 300px 0 0 0 var(--palette-yellow1);
+    color: #FFF;
 }
