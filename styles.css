@@ -1,0 +1,37 @@
+:root {
+    --palette-purple1: #6A67CE;    
+    --palette-purple2: #947EC3;    
+    --palette-purple3: #B689C0;    
+    --palette-purple4: #EEF3D2;    
+
+    --palette-yellow1: #EB5353;
+    --palette-yellow2: #F9D923;
+    --palette-yellow3: #36AE7C;
+    --palette-yellow4: #187498;
+
+    --bg-color: #E5CB9F;
+    --main-font-color: #141E27;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-font-color);
+    font-size: 2rem;
+}
+
+h1{
+    margin: 30px 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
